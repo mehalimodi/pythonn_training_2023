@@ -1,0 +1,10 @@
+a=77
+b="mehali"
+c=99.588
+d="Truee"
+e=99j   
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))

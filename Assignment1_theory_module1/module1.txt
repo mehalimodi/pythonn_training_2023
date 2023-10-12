@@ -1,0 +1,56 @@
+1)What is software?
+
+--->The software is basically a set of instructions or commands that tell a computer what to do. 
+In other words, the software is a computer program that provides a set of instructions to execute a user's commands and 
+tell the computer what to do. For example like MS-Word, MS-Excel, PowerPoint, etc.
+
+2) What are the types of Applications?
+--->	1)Word Processing Software. These are designed to facilitate the creation, editing, formatting, and printing of text documents. ...
+	2)Spreadsheet Software. ...
+	3)Presentation Software. ...
+	4)Database Software. ...
+	5)Web Browsers. ...
+	6)Graphics Software. ...
+	7)Multimedia Software. ...
+	8)Educational Software.
+	9)Entertainment Software
+       10)Customer Relationship Management (CRM) 
+       11)Enterprise Resource Planning (ERP)
+       12)Project Management Software
+       13)Human Resource Management (HRM) Software
+       14)Accounting Software 
+       15)Manufacturing Software
+       16)Supply Chain Management (SCM) Software
+
+3) What is programing?
+--->Programming refers to a technological process for telling a computer which tasks to perform in order to solve problems. 
+You can think of programming as a collaboration between humans and computers, in which humans create instructions for a 
+computer to follow (code) in a language computers can understand.
+
+4) What is python?
+--->Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.
+It was originally released in 1991. Designed to be easy as well as fun, the name "Python" is a nod to the British comedy group Monty
+Python.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
