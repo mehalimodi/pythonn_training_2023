@@ -1,0 +1,3 @@
+hello
+mehali
+count lines from the file

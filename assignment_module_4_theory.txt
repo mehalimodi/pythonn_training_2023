@@ -1,0 +1,130 @@
+1)what is exception handling?What is error in python?
+----Exceptions Handling:
+
+Exception handling is a mechanism for managing errors gracefully and preventing program crashes. It allows you to:
+Anticipate potential errors
+Implement code to handle them appropriately
+Maintain program flow without abrupt termination.
+try-except blocks:
+
+Code suspected of raising errors is placed within a try block.
+If an error occurs, an exception is raised and execution jumps to the corresponding except block.
+If no errors occur, the except block is skipped.
+Exception types:
+
+Python has built-in exception types for common errors e.g., ZeroDivisionError, TypeError, FileNotFoundError.
+Additional Features:
+
+		Multiple except blocks:
+Handle different exception types with separate except blocks.
+else block:
+Code to execute if no exceptions occur within the try block.
+finally block:
+Code that always executes, regardless of exceptions, often used for cleanup tasks.
+
+
+Errors in Python:
+
+Errors are unexpected events that disrupt program execution. They can arise due to various reasons such as:
+Incorrect syntax
+Invalid operations (e.g., division by zero)
+Unavailable resources (e.g., files not found)
+Logical flaws in code.
+
+
+2) How many except statements can a try-except block have? Name Some built-in exception classes?
+Number of except Statements:
+
+A try-except block can have at least one and potentially multiple except statements.
+Each except statement handles a specific type of exception or multiple types in a tuple.
+Built-in Exception Classes:
+Exception: Base class for most built-in exceptions.
+TypeError: Raised when an operation or function is applied to an object of an inappropriate type.
+ValueError: Raised when a function receives an argument with the right type but an inappropriate value.
+SyntaxError: Raised when there is an error in the syntax of the Python code.
+NameError: Raised when a variable is not found in the local or global scope.
+
+3)When will the else part of try-except-else be executed? 
+try block:
+
+The code within the try block is executed first.
+If no exceptions occur during this execution, the code proceeds to the else block.
+except block(s):
+
+If an exception occurs within the try block, the code jumps directly to the matching except block that handles the specific type of exception raised.
+The else block is skipped in this case.
+else block:
+
+If the try block completes without any exceptions, the code in the else block is executed.
+
+4) Can one block of except statements handle multiple exception? 
+Yes, a single except block can handle multiple exceptions in Python. 
+Use multiple specific except blocks when you need to handle different exceptions in different ways.
+Use a bare except block only as a last resort or in cases where you're confident about handling any potential exception.
+
+5) When is the finally block executed?
+The finally block is executed unconditionally in a try-except statement, regardless of whether an exception occurs or not.
+
+
+
+6) How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets. 
+1. The try Block:
+
+Encloses the code that might raise exceptions.
+If no exceptions occur, the code executes normally.
+2. The except Blocks:
+
+Handle specific exceptions that might be raised within the try block.
+Each except block specifies the type of exception it can handle.
+If an exception occurs, the matching except block is executed, and the rest of the try block is skipped.
+3. The finally Block:
+
+Optional block that always executes, regardless of whether an exception occurs or not.
+Commonly used for cleanup tasks like closing files or releasing resources.
+
+7) What are oops concepts? Is multiple inheritance supported in java  ?
+OOPS (Object-Oriented Programming) concepts are a fundamental approach to programming that involves structuring
+ software around objects that encapsulate data (attributes) and behavior (methods).
+
+	Multiple Inheritance:
+Not directly supported in Java to avoid complexities like the "diamond problem."
+Java offers interfaces as an alternative to achieve a similar effect.
+
+8)How to Define a Class in Python? What Is Self? Give An Example Of A Python Class?
+Class:  
+	A class in pyhton can be defined  using theb class keyword. As per the syntax a class is defined using class keyword
+ 	followed by the class name and : operator after the class name, which allows yu to continue in the next indented line to 
+ 	define class members.
+Self:
+	Self represents the instance of class.This keyword allows you to access variables, attribute and methods of a defined class in python.
+	The self parameter doesn't hove to be named 'self', as you can call it by any other name.
+example:
+	create a class method person, use the __init__() function to assign values for name and age:
+		class Person:
+			def __init__(self,name,age):
+				self.name=name
+				self.age=age
+		p1=Person("john",55)
+		print(p1.name)
+		print(p1.age)
+			
+9)What is Instantiation in terms of OOP terminology? 
+ The basic concept of oop is - Class>>Object>>Instance.The class = the blue print.The object is an actual thing that is built 
+ based on "blue print"(like the house).An instance is a virtual copy(but not a real copy) of the object.
+
+10)What is used to check whether an object o is an instance of class A?
+ The isinstance() function checks whether an object is an instance of the class mentioned.
+
+11)What relationship is appropriate for Course and Faculty? 
+
+
+
+
+
+
+
+
+
+
+
+
